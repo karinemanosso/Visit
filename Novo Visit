@@ -44,8 +44,24 @@
 		</tr>
 		<tr>
 		<td></td>
-		<td><button type="button">Salvar</button>
-		<button type="button">Cancelar</button></td>
+		<tr>
+		<td></td>
+		
+		
+		<td><button onclick="myFunction()">Salvar</button>
+		<script>
+		function myFunction() {
+			alert("Salvo!");
+			}
+		</script></td>
+
+		<td><button onclick="myFunction()">Cancelar</button>
+
+		<script>
+			function myFunction() {
+			alert("Cancelado!");
+			}
+			</script></td>
 		</tr>
 		
 		
